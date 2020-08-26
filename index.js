@@ -3,5 +3,5 @@ function takeANumber(line, name) {
 
   var place = line.length;
 
-  return `Welcome, ${name}. You are number ${place} in line.``;
+  return `Welcome, ${name}. You are number ${place} in line.`;
 }

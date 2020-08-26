@@ -19,7 +19,7 @@ function nowServing(line) {
 function currentLine(line) {
   var lineStr = 'The line is currently: '
   if (line.length === 0) {
-    return "The line is currently empty";
+    return "The line is currently empty.";
   } else {
     for (var i = 0; i < line.length; i++) {
       var name = line[i];
